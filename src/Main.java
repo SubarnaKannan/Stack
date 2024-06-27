@@ -4,7 +4,7 @@ class Stack {
     int ptr;
     int[] arr;
     Stack(int size) {
-        this.size = size
+        this.size = size;
         ptr = -1;
         arr = new int[size];
     }
